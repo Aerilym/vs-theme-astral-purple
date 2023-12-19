@@ -3,6 +3,12 @@
   "displayName": "Astral Purple Dark Theme",
   "description": "A colour theme inspired by astronomy and the colour purple.",
   "version": "0.0.1",
+  "publisher": "Aerilym",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aerilym/vs-theme-astral-purple"
+  },
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -10,8 +16,8 @@
     "Themes"
   ],
   "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish"
+    "vs-package": "vsce package",
+    "vs-publish": "vsce publish"
   },
   "contributes": {
     "themes": [
